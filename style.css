@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,18,222,1) 63%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-cont{
+    height: 60vh;
+    width: 28vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.weight{
+    font-weight: 300;
+}
+input{
+    background-color: #013a63;
+    color: white;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: 0px;
+    outline: 0px;
+    border-color:#013a63 ;
+}
+.type{
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+.icons{
+    position: absolute;
+    right: 60px;
+    top: 17px;
+    color: white;
+    font-size: 20px;
+}
+.forgot{
+    text-decoration: none;
+    color: white;
+    text-align: end;
+    padding-right: 48px;
+}
+.forgot:hover{
+    color: white;
+
+}
+.but{
+outline: 0px;
+border: 0px;
+border-radius: 12px;
+color: white;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+
+
+@media  screen and (min-width:1400px) {
+    .form-cont{
+        width: 25vw;
+        height: 65vh;
+    }
+}
+@media  screen and (max-width:1400px) {
+    .form-cont{
+        width: 35vw;
+        height: 65vh;
+    }
+}
+@media  screen and (max-width:1000px) {
+    .form-cont{
+        width: 35vw;
+        height: 65vh;
+    }
+}
+@media  screen and (max-width:800px) {
+    .form-cont{
+        width: 55vw;
+        height: 65vh;
+    }
+}
+@media  screen and (max-width:600px) {
+    .form-cont{
+        width: 80vw;
+        height: 65vh;
+    }
+}
+@media  screen and (max-width:400px) {
+    .form-cont{
+        width:85vw;
+        height: 65vh;
+    }
+}
+
+
+
+
+
